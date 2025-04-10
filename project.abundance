@@ -1,13 +1,23 @@
 {
     "atomType": "Molecule",
-    "name": "AX3 cowl",
+    "name": "AX3-cowl",
     "x": 0,
     "y": 0,
     "uniqueID": 1744269552265,
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1744269562623,
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
